@@ -1,0 +1,13 @@
+.Home {
+
+  .d-flex p {
+    align-self: flex-end;
+  }
+
+  .product-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+  }
+}

@@ -1,0 +1,29 @@
+.LoginForm {
+  margin-top: 2rem;
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  .form-group label,
+  .form-group input {
+    display: block;
+    width: 100%;
+  }
+
+  .form-group label {
+    margin-bottom: .5rem;
+  }
+
+  .form-group input {
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: 1px solid #b9b9b9;
+  }
+
+  .error {
+    color: firebrick;
+    margin-bottom: 1rem;
+  }
+
+}

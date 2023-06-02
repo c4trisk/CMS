@@ -1,0 +1,94 @@
+.container {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: .6rem;
+  padding: 2rem;
+}
+
+.btn {
+  border: 0;
+  outline: none;
+  padding: .6rem;
+  border-radius: .5rem;
+  transition: background-color 200ms;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #b6b6d9;
+}
+.btn-primary:hover {
+  background-color: #ceceec;
+}
+
+.btn-edit {
+  background-color: #8eeb85;
+}
+.btn-edit:hover {
+  background-color: #98f78f;
+}
+
+.btn-delete {
+  background-color: #ac3733;
+  color: #fff;
+}
+.btn-delete:hover {
+  background-color: #c7443f;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-grey {
+  color: #757575;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+
+.modal {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000054;
+}
+
+.warning {
+  color: rgb(235, 4, 4);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.category {
+  font-size: .7rem;
+  margin-bottom: .4rem;
+  text-transform: uppercase;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.mb {
+  margin-bottom: .5rem;
+}
+

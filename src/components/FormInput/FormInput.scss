@@ -1,0 +1,32 @@
+.FormInput {
+  margin-bottom: 1rem;
+
+  .form-label,
+  .form-control {
+    display: block;
+    width: 100%;
+  }
+
+  .form-label {
+    margin-bottom: .5rem;
+  }
+
+  .form-control {
+    padding: .7rem;
+    font-size: 1rem;
+    border-radius: .6rem;
+    border: 1px solid #cecece;
+    outline: none;
+  }
+  .form-control:focus {
+    border: 1px solid #b6b6d9;
+    outline: 1px solid #b6b6d9;
+  }
+
+
+  .error {
+    color: #e20a0a;
+    font-style: italic;
+    margin-top: .3rem;
+  }
+}

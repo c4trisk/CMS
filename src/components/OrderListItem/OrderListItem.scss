@@ -1,0 +1,20 @@
+.OrderListItem {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: .6rem;
+  text-decoration: none;
+  color: #000;
+  transition: background-color 100ms ease-in-out;
+
+
+  .status {
+    color: orange;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+}
+
+.OrderListItem:hover {
+  background-color: hsl(0, 0%, 98%);
+}

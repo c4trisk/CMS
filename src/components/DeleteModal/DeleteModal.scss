@@ -1,0 +1,29 @@
+.DeleteModal {
+  .card {
+    max-width: 800px;
+    padding: 4rem 4rem 2rem 4rem;
+  }
+
+  .card .warning {
+    margin-block: 1rem;
+  }
+
+  .product {
+    border: 1px solid #cdcdcd;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 2rem
+  }
+
+  .product .img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .product div p{
+    margin-bottom: .4rem;
+  }
+
+}

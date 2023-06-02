@@ -1,0 +1,33 @@
+.ProductListItem {
+  padding: 1rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-radius: .6rem;
+  text-decoration: none;
+  color: #000;
+  transition: background-color 100ms ease-in-out;
+
+
+  .img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    flex: 1;
+  }
+
+  .desc {
+    flex: 4;
+  }
+
+  .buttons {
+    align-self: center;
+    display: flex;
+    gap: .5rem;
+  }
+}
+
+.ProductListItem:hover {
+  background-color: hsl(0, 0%, 98%);
+}
